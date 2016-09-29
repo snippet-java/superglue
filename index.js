@@ -6,7 +6,7 @@ module.exports = {
 		GET: function(req, res, params, unitpath) {
 //			console.log({ path: [req.params, req.query, req.body]});
 
-			var fs = require('fs');
+			const fs = require('fs');
 			var forms = require('forms');
 			var fields = forms.fields;
 
@@ -17,7 +17,7 @@ module.exports = {
 				}
 			}
 
-			var htmlStr = fs.readFileSync("form.html", "utf8");	
+			var htmlStr = fs.readFileSync(__dirname + "/form.html", "utf8");		
 			htmlStr = htmlStr.replace(/{{path}}/g, unitpath).replace(/{{inputs}}/g, forms.create(result).toHTML());
 //			console.log(htmlstr);
 
