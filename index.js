@@ -6,7 +6,7 @@ module.exports = {
 		GET: function(req, res, params, unitpath) {
 //			console.log({ path: [req.params, req.query, req.body]});
 
-			var fs = require('forms');
+			var fs = require('fs');
 			var forms = require('forms');
 			var fields = forms.fields;
 
