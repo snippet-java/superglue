@@ -17,7 +17,7 @@ module.exports = {
 				}
 			}
 
-			var htmlStr = fs.readFileSync('form.html').toString()	
+			var htmlStr = fs.readFileSync("form.html", "utf8");	
 			htmlStr = htmlStr.replace(/{{path}}/g, unitpath).replace(/{{inputs}}/g, forms.create(result).toHTML());
 //			console.log(htmlstr);
 

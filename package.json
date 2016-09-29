@@ -1,6 +1,6 @@
 {
   "name": "sandbox-superglue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Superglue for sandbox will automatically create a html form with required inputs for quick application test or deployment",
   "main": "index.js",
   "scripts": {
