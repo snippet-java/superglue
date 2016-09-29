@@ -1,0 +1,29 @@
+{
+  "name": "sandbox-superglue",
+  "version": "0.1.0",
+  "description": "Superglue for sandbox will automatically create a html form with required inputs for quick application test or deployment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snippet-java/superglue.git"
+  },
+  "keywords": [
+    "superglue",
+    "nodejs",
+    "node",
+    "form",
+    "sandbox"
+  ],
+  "author": "Lak Sri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snippet-java/superglue/issues"
+  },
+  "homepage": "https://github.com/snippet-java/superglue#readme",
+  "dependencies": {
+        "forms": "*"
+  }
+}
